@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+            /* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    section {
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+    /* Estilos específicos para secciones */
+    #lab-technician {
+        border-left: 5px solid #00f; /* Bordes izquierdos de color azul */
+    }
+
+    #lab-technician img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    #chemical-analyst {
+        border-left: 5px solid #0c0; /* Bordes izquierdos de color verde */
+    }
+
+    #radiation-safety-officer {
+        border-left: 5px solid #c00; /* Bordes izquierdos de color rojo */
+    }
+    </style>
     <meta charset="UTF-8">
-    <title>Mi Página Web</title>
+    <title>Mi Biografía</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Mi Biografía</h1>
     </header>
-    <nav>
+    
+    <section id="lab-technician">
+        <img src="https://plus.unsplash.com/premium_photo-1682144707874-fb6218b61dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2623&q=80" alt="Imagen Laboratorio">
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="https://www.facebook.com/tu_perfil_de_facebook" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com/tu_perfil_de_twitter" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">LinkedIn</a></li>
+            <!-- Agrega enlaces a tus otras redes sociales aquí -->
         </ul>
-    </nav>
-    <main>
-        <h2>Contenido Principal</h2>
-        <p>Bienvenido a mi página web. Aquí puedes agregar tu contenido principal, como texto, imágenes y otros elementos.</p>
-    </main>
+        
+        <h2>Técnico de Laboratorio</h2>
+        <p>Conocimientos en el uso, calibración y mantenimiento de instrumentos y equipos. Realizo labores de apoyo, como reabastecimiento de suministros y organización. Mantengo registros detallados en pleno cumplimiento de estándares y políticas.</p>
+    </section>
+    
+    <section id="chemical-analyst">
+        <h2>Analista Químico</h2>
+        <p>Confiable con conocimientos avanzados en tecnologías de fluidos para estimulación de pozos, como sistemas de fracturamiento a base de agua y aceite, y sistemas de fluidos ácidos.</p>
+    </section>
+    
+    <section id="radiation-safety-officer">
+        <h2>Oficial de Seguridad Radiológica</h2>
+        <p>Experiencia en la documentación y gestión de fuentes radiactivas.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 Alonso Molero</p>
     </footer>
 </body>
 </html>
